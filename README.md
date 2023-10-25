@@ -7,6 +7,7 @@
 ![image1](./imgs/image1.png)
 - Dataset 
 Kaggle의 WikiArt에서 제공하는 약 100,000장의 이미지를 사용 for 33 styles.
+
 +) Mid-journey dataset : initial approach에서만 사용.
 <a href="https://www.kaggle.com/datasets/succinctlyai/midjourney-texttoimage">mid-journey datsaet</a>
 
@@ -31,7 +32,7 @@ classification만으론 model이 온전한 style info를 뽑아낸다는 근거�
 style information을 온전히 뽑아내기 위해, 구도가 같지만 style이 다른 이미지를 이용하여 style info를 뽑아내고자 했다. (image + style = style image)
 ![image5](./imgs/image5.png)
 
-* reference paper
+<strong>reference paper</strong>
 - Neural Style Transfer
 - Pix2Pix
 - Control-Net
